@@ -1,0 +1,20 @@
+entryPoints:
+  http:
+    address: ":80"
+
+  https:
+    address: ":443"
+
+providers:
+  docker:
+    endpoint: "http://dockersocket:2375"
+    exposedByDefault: false
+    network: "proxy_public"
+
+certificatesResolvers:
+  le:
+    acme:
+      email: "certbot@deepvision.team"
+      storage: "/etc/traefik/certs/acme.json"
+      dnsChallenge:
+        provider: "cloudflare"
