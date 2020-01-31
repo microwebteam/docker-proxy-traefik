@@ -2,7 +2,6 @@
 
 ## Versions
 
-* `latest` – Current version
 * `2.1` – Current version
 
 ## Usage
