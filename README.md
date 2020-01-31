@@ -54,7 +54,7 @@ networks:
     docker-compose -f docker-compose.yml -p proxy up -d
 
 New Docker network `proxy_public` will be created.
-Add all public containers to this network
+Add all public containers to this network.
 
 ## Exposed ports
 
