@@ -18,3 +18,7 @@ certificatesResolvers:
       storage: "/etc/traefik/certs/acme.json"
       dnsChallenge:
         provider: "cloudflare"
+  le_http:
+    acme:
+      httpChallenge:
+        entryPoint: http
