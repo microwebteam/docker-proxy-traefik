@@ -21,6 +21,6 @@ certificatesResolvers:
   le_http:
     acme:
       email: "certbot@deepvision.team"
-      storage: "/etc/traefik/certs/acme.json"
+      storage: "/etc/traefik/certs/acme_http.json"
       httpChallenge:
         entryPoint: http
