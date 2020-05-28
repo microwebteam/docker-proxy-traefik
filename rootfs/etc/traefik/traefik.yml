@@ -5,6 +5,9 @@ entryPoints:
   https:
     address: ":443"
 
+api:
+  dashboard: true
+
 providers:
   docker:
     endpoint: "http://dockersocket:2375"
