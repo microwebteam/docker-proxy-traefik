@@ -18,6 +18,7 @@ certificatesResolvers:
       storage: "/etc/traefik/certs/acme.json"
       dnsChallenge:
         provider: "cloudflare"
+        delayBeforeCheck: 10
   le_http:
     acme:
       email: "certbot@deepvision.team"
