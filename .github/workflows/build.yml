@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: deeepvision/github-action-docker-build@master
+      - uses: microwebteam/github-action-docker-build@master
         with:
           name: traefik-proxy
         env:
